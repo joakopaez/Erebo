@@ -1,0 +1,27 @@
+.nerko-one-regular {
+    font-family: "Nerko One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+h1{
+    font-family: "Nerko One";
+}
+.container-fluid{
+    text-align: center;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgb(34,107,28);
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#fondo{
+    opacity: 60%;
+}
+.cardindex{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
