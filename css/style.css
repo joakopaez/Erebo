@@ -3,14 +3,44 @@
     font-weight: 400;
     font-style: normal;
   }
+.space-grotesk-regular {
+    font-family: "Space Grotesk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+p{
+    font-family: "Space Grotesk";
+}
 h1{
     font-family: "Nerko One";
+    text-align: center;
+}
+h2{
+    font-family: "Nerko One";
+    text-align: center;
+}
+h3{
+    font-family: "Nerko One";
+    text-align: center;
+}
+h4{
+    font-family: "Nerko One";
+    text-align: center;
+}
+h5{
+    font-family: "Nerko One";
+    text-align: center;
+}
+h6{
+    font-family: "Nerko One";
+    text-align: center;
 }
 .container-fluid{
     text-align: center;
     margin: 5px;
     border-radius: 15px;
-    background-color: rgb(34,107,28);
+    background-color: rgb(197,240,164);
 }
 .nav-link{
     display: flex;
@@ -24,4 +54,114 @@ h1{
     display: flex;
     flex-direction: row;
     text-align: center;
+}
+footer{
+    background-color: rgb(34,107,128);
+}
+.pie{
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    height: 20px;
+    width: 20px;
+}
+.formulario{
+    justify-content: center;
+    width: 50%;
+    height: 500px;
+    margin:  7%;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(53, 176, 171);
+    border-radius: 20px;
+}
+#ubicacion{
+    margin: 5%;
+    width: 30%;
+}
+article{
+    margin: 15px;
+}
+#trabajadores{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 20px;
+}
+.carta{
+    margin: 15px;
+    display: flex;
+    width: 800px;
+     img{ width: 630px;
+          height: 470px;
+    }
+}
+#carouselExampleFade{
+    img{
+        width: 90%;
+        height: 800px;
+    }
+}
+#lugares{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.destinos{
+    margin: 12px;
+    display: flex;
+    width: 850px;
+    img{
+        height: 400px;
+        width: 600px;
+    }
+}
+.card-group{
+    margin: 25px;
+    padding: 13px;
+    height: 600px;
+    gap: 8px;
+}
+.card-body{
+    border-style: double;
+    border-radius: 17px;
+    border-color: rgb(53, 176, 171);
+}
+@media screen and (max-width: 768px)
+{
+    .logo{
+        height: 15px;
+        width: 15px;
+    }
+    .formulario{
+        justify-content: center;
+        width: 550px;
+        height: 500px;
+        margin:  10%;
+        padding: 10px;
+        border-style: solid;
+        border-color: rgb(53, 176, 171);
+        border-radius: 20px;
+    }
+    #ubicacion{
+        margin: 17%;
+        width: 400px;
+    }
+    .card-group{
+        margin: 25px;
+        padding: 13px;
+        height: 400px;
+        gap: 8px;
+        width: 650px;
+    }
+    .card-body{
+        display: flex;
+        flex-wrap: wrap;
+        border-style: double;
+        border-radius: 17px;
+        border-color: rgb(53, 176, 171);
+    }
 }
